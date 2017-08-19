@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mad Libs Js</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="jsiceland.png"/>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 text-container" id="textContainer">
+        <span class="text-content"><i>Espionage</i> &nbsp; is the formal word for</span>
+        <div class="input-field left">
+          <input id="verb1" type="text" class="inline-input validate">
+          <label for="verb1">Verb ending in 'ING'</label>
+        </div>
+        <span class="text-content">. In the shadowy world of spies, a/an </span>
+        <div class="input-field left">
+          <input id="adjective1" type="text" class="inline-input validate">
+          <label for="adjective1">Adjective</label>
+        </div>
+        <span class="text-content">organization like the US government uses spies to infiltrate</span>
+        <div class="input-field left">
+          <input id="adjective2" type="text" class="inline-input validate">
+          <label for="adjective2">Adjective</label>
+        </div>
+        <span class="text-content">groups for the purpose of obtaining top secret</span>
+        <div class="input-field left">
+          <input id="noun1" type="text" class="inline-input validate">
+          <label for="noun1">Plural Noun</label>
+        </div>
+        <span class="text-content">. For example, spies might have to crack the code for accessing confidential, </span>
+        <div class="input-field left">
+          <input id="adjective3" type="text" class="inline-input validate">
+          <label for="adjective3">Adjective</label>
+        </div>
+        <span class="text-content">files, or their mission could be far more dangerous like stealing the key ingredient for making </span>
+        <br>
+        <div class="input-field left">
+          <input id="person1" type="text" class="inline-input validate">
+          <label for="person1">Person in room</label>
+        </div>
+        <span class="text-content">award-winning Explosive Fudgy</span>
+        <div class="input-field left">
+          <input id="noun2" type="text" class="inline-input validate">
+          <label for="noun2">Plural noun</label>
+        </div>
+        <span class="text-content">. Spies are found all over the</span>
+        <div class="input-field left">
+          <input id="place1" type="text" class="inline-input validate">
+          <label for="place1">Place</label>
+        </div>
+        <span class="text-content">but they are not allowed to reveal their</span>
+        <div class="input-field left">
+          <input id="adjective4" type="text" class="inline-input validate">
+          <label for="adjective4">Adjective</label>
+        </div>
+        <span class="text-content">indentities. A teacher, </span>
+        <div class="input-field left">
+          <input id="celebrity1" type="text" class="inline-input validate">
+          <label for="celebrity1">Celebrity</label>
+        </div>
+        <span class="text-content">, or even the little old </span>
+        <div class="input-field left">
+          <input id="noun3" type="text" class="inline-input validate">
+          <label for="noun3">Noun</label>
+        </div>
+        <span class="text-content">with the cane and fifteen pet</span>
+        <div class="input-field left">
+          <input id="pluralnoun2" type="text" class="inline-input validate">
+          <label for="pluralnoun2">Plural Noun</label>
+        </div>
+        <span class="text-content">who lives next door to you could be a spy. The world of spying might even seem glamorous and</span>
+        <div class="input-field left">
+          <input id="adjective5" type="text" class="inline-input validate">
+          <label for="adjective5">Adjective</label>
+        </div>
+        <span class="text-content">but it's filled with risks and</span>
+        <div class="input-field left">
+          <input id="pluralnoun3" type="text" class="inline-input validate">
+          <label for="pluralnoun3">Plural Noun</label>
+        </div>
+        <span class="text-content">! Sure, spies have a never-ending supply of supercool electronic</span>
+        <div class="input-field left">
+          <input id="pluralnoun4" type="text" class="inline-input validate">
+          <label for="pluralnoun4">Plural Noun</label>
+        </div>
+        <span class="text-content">, but they can't trust any</span>
+        <div class="input-field left">
+          <input id="noun4" type="text" class="inline-input validate">
+          <label for="noun4">Noun</label>
+        </div>
+        <span class="text-content">--which is why the number one rule of spies is to keep friends close--and</span>
+        <div class="input-field left">
+          <input id="pluralnoun4" type="text" class="inline-input validate">
+          <label for="pluralnoun4">Plural Noun</label>
+        </div>
+        <span class="text-content">closer!</span>
+      </div>
+    </div>
+    <button class="waves-effect waves-light btn"
+      id="goButton">Play</button>
+  </div>
+  <!-- Dropdown Trigger -->
+    <a class='dropdown-button btn' id="dropDown" href='#' data-activates='dropdown1'>Select Voice</a>
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'></ul>
+    <span id="selectedVoice"></span>
+    
+      <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/materialize.min.js"></script>
+</body>
+</html>

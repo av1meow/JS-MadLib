@@ -1,0 +1,29 @@
+div.container {
+  max-width: 85%;
+  width: 75%;
+}
+
+div.col.text-container {
+  padding-top: 25px;
+}
+
+.input-field.left {
+  margin: 5px 0px 0px 5px;
+}
+
+.input-field input.inline-input {
+  float: left;
+  height: 50px;
+  margin: 0;
+}
+
+.text-content {
+    float: left;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+ul.dropdown-content {
+  max-resolution: 250px;
+}
